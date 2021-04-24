@@ -1,2 +1,12 @@
 author			= "MZ";
 onLoadName		= "Navigation Training";
+
+
+class CfgFunctions
+{
+	class mz_nav {
+		class NavTrainingFuncs {
+			class placeTriangulationArena {file = "scripts\triangulation\place_arena.sqf";};
+		}
+	}
+}
