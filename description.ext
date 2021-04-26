@@ -1,5 +1,5 @@
 author			= "MZ";
-onLoadName		= "Navigation Training";
+onLoadName		= "Training Facility";
 
 
 class CfgFunctions
@@ -7,6 +7,12 @@ class CfgFunctions
 	class mz_nav {
 		class NavTrainingFuncs {
 			class placeTriangulationArena {file = "scripts\triangulation\place_arena.sqf";};
+		}
+	}
+	class mz_medic {
+		class MedicalTrainingFuncs {
+			class clearMedicalArea {file = "scripts\medicaltraining\clear_medical_area.sqf";};
+			class spawnRandomizedPatient {file = "scripts\medicaltraining\spawn_randomized_patient.sqf";};
 		}
 	}
 }
