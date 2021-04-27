@@ -15,4 +15,10 @@ class CfgFunctions
 			class spawnRandomizedPatient {file = "scripts\medicaltraining\spawn_randomized_patient.sqf";};
 		}
 	}
+	class mz_launcherTraining {
+		class LauncherTrainingFuncs {
+			class spawnGroundVehicle {file = "scripts\launchertraining\spawn_ground_vehicle.sqf";};
+			class clearAllVehicles {file = "scripts\launchertraining\clear_all_vehicles.sqf";};
+		}
+	}
 }

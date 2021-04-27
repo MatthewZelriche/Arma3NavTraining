@@ -7,3 +7,6 @@ ClearMedicalArea01 addAction ["Clear bodies.", { [MedicalClearTrigger01] call mz
 ClearMedicalArea02 addAction ["Clear bodies.", { [MedicalClearTrigger02] call mz_medic_fnc_clearMedicalArea; } ];
 SpawnPatient01 addAction ["Spawn randomized patient.", { [MedicalClearTrigger01] call mz_medic_fnc_spawnRandomizedPatient; } ];
 SpawnPatient02 addAction ["Spawn randomized patient.", { [MedicalClearTrigger02] call mz_medic_fnc_spawnRandomizedPatient; } ];
+
+SpawnVehicleterminal addAction ["Spawn Ground Vehicle.", { call mz_launcherTraining_fnc_spawnGroundVehicle; } ];
+DeleteVehiclesTerminal addAction ["Clear All Vehicles.", { call mz_launcherTraining_fnc_clearAllVehicles; } ];
